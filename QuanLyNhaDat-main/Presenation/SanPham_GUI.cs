@@ -67,6 +67,7 @@ namespace QuanLyNhaDat.GUI
                         Console.Clear();
                         break;
                     case 6:
+                        Console.Clear();
                         KhachHang_GUI.Run(sanPham_BLL);
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();

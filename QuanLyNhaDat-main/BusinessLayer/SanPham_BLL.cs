@@ -7,7 +7,7 @@ using System.Text;
 
 namespace QuanLyNhaDat.BLL.Interface
 {
-    class SanPham_BLL : SanPham_IF
+    class SanPham_BLL : ISanPham
     {
         //tạo 1 mảng để lưu danh sách nhà đất
         static ArrayList list = new ArrayList();
@@ -21,11 +21,16 @@ namespace QuanLyNhaDat.BLL.Interface
         }
         public string Nhapten()
         {
-            string str;
-            do
+            string str = Console.ReadLine();
+            while (true)
             {
-                str = Console.ReadLine();
-            } while (str == "");
+                if (str != "") break;
+                else
+                {
+                    Console.Write("                                 Phải nhập khác rỗng");
+                    str = Console.ReadLine();
+                }
+            }
             return str;
         }
         public void nhapKhachHang()

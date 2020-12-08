@@ -1,0 +1,16 @@
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.csprojAssemblyReference.cache
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.AssemblyInfoInputs.cache
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.AssemblyInfo.cs
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.csproj.CoreCompileInputs.cache
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.exe
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.deps.json
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.runtimeconfig.json
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.runtimeconfig.dev.json
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.dll
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\ref\QuanLyNhaDat.dll
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\bin\Debug\net5.0\QuanLyNhaDat.pdb
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.dll
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\ref\QuanLyNhaDat.dll
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.pdb
+C:\Users\TonDz\Downloads\QuanLyNhaDat-main\QuanLyNhaDat-main\obj\Debug\net5.0\QuanLyNhaDat.genruntimeconfig.cache

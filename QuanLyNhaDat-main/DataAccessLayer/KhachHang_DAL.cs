@@ -7,7 +7,7 @@ using QuanLyNhaDat.DAL.Interface;
 using QuanLyNhaDat.Entities;
 namespace QuanLyNhaDat.DAL
 {
-    class KhachHang_DAL : DocGhiFile_IF
+    class KhachHang_DAL : ISanPham
     {
         public void docFile(ArrayList list)
         {

@@ -38,6 +38,8 @@ namespace QuanLyNhaDat.GUI
                         if (kt == DangNhap_BLL.DangNhap(arrayList))
                         {
                             Console.WriteLine("                                 Đăng nhập thành công");
+                            Console.ReadKey();
+                            Console.Clear();
                             SanPham_GUI.Run(SanPham_BLL);
                             
                         }

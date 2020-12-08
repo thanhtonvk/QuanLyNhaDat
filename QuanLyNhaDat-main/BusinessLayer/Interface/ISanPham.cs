@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QuanLyNhaDat.BLL.Interface
 {
-    interface SanPham_IF
+    interface ISanPham
     {
         void Them();
         void Sua();

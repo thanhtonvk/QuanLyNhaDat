@@ -7,7 +7,7 @@ using QuanLyNhaDat.Entities;
 
 namespace QuanLyNhaDat.DAL
 {
-    class SanPham_DAL : DocGhiFile_IF
+    class SanPham_DAL : ISanPham
     {
         public void docFile(ArrayList list)
         {

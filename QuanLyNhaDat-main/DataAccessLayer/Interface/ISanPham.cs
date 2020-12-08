@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QuanLyNhaDat.DAL.Interface
 {
-    interface DocGhiFile_IF
+    interface ISanPham
     {
         void docFile(ArrayList list);
         void ghiFile(ArrayList list);
