@@ -16,9 +16,11 @@ namespace QuanLyNhaDat.BLL.Interface
         static ArrayList list_kh = new ArrayList();
         public void docFile()
         {
-            khachHang_DAL.docFile(list_kh);
+           
             sanPham_DAL.docFile(list);
+            khachHang_DAL.docFile(list_kh);
         }
+      
         public string Nhapten()
         {
             string str = Console.ReadLine();
@@ -81,7 +83,7 @@ namespace QuanLyNhaDat.BLL.Interface
             //duyệt sản phẩm trong danh sách
             foreach (KhachHang khachHang in list_kh)
             {
-                Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|{5,-20}|", khachHang.Ten,khachHang.Diachi,khachHang.Sdt,khachHang.Tensanphammua,khachHang.Sotiencoc,getGiaNha(khachHang.Ten));
+                Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|{5,-20}|", khachHang.Ten,khachHang.Diachi,khachHang.Sdt,khachHang.Tensanphammua,khachHang.Sotiencoc,getGiaNha(khachHang.Tensanphammua));
             }
         }
 
@@ -148,10 +150,10 @@ namespace QuanLyNhaDat.BLL.Interface
                 //nếu đối tượng tìm thấy thì tiến hành hiện thông tin
                 if (sanPham.Ten.Equals(tukhoa))
                 {
-                    kt = true;
+                    
                     //hiện thông tin
-                    Console.WriteLine("                                 |{0,-20|{1,-20}|{2,-20}|{3,-20}|{4,-20}{5,-20}|", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
-
+                    Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}{5,-20}|", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
+                    kt = true;
                 }
             }
             if (kt == false) Console.WriteLine("                                 Không tìm thấy nhà");

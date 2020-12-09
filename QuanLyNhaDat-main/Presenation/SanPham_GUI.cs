@@ -49,9 +49,10 @@ namespace QuanLyNhaDat.GUI
                             Console.Write("                                 Bạn có muốn nhập tiếp không?C/K ");
                             nhap = Console.ReadLine();
                             if (nhap == "k" || nhap == "K")
-                            {Console.Clear();
+                            {
+                                Console.Clear();
                                 break;
-                                
+
                             }
                         }
                         break;
@@ -84,8 +85,10 @@ namespace QuanLyNhaDat.GUI
                         Console.Clear();
                         break;
                     case 6:
+
                         Console.Clear();
                         KhachHang_GUI.Run(sanPham_BLL);
+                        
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
                         Console.Clear();
