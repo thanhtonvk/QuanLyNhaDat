@@ -31,7 +31,7 @@ namespace QuanLyNhaDat.BLL.Interface
                     dem++;
                     Console.Write("                                 Phải nhập khác rỗng: ");
                     str = Console.ReadLine();
-                   
+                    Console.Clear();
                 }
             }
             return str;
@@ -142,7 +142,7 @@ namespace QuanLyNhaDat.BLL.Interface
             string tukhoa = Nhapten();
             bool kt = false;
             //duyệt danh sách
-            Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|", "Tên", "Địa chỉ", "Diện tích", "Số tầng", "Số phòng", "Giá bán");
+            Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|{5,-20}|", "Tên", "Địa chỉ", "Diện tích", "Số tầng", "Số phòng", "Giá bán");
             foreach (SanPham sanPham in list)
             {
                 //nếu đối tượng tìm thấy thì tiến hành hiện thông tin
@@ -150,7 +150,7 @@ namespace QuanLyNhaDat.BLL.Interface
                 {
                     kt = true;
                     //hiện thông tin
-                    Console.WriteLine("                                 |{0,-20|{1,-20}|{2,-20}|{3,-20}|{4,-20}", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
+                    Console.WriteLine("                                 |{0,-20|{1,-20}|{2,-20}|{3,-20}|{4,-20}{5,-20}|", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
 
                 }
             }
@@ -159,11 +159,11 @@ namespace QuanLyNhaDat.BLL.Interface
 
         public void Xem()
         {
-            Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|", "Tên", "Địa chỉ", "Diện tích", "Số tầng", "Số phòng", "Giá bán");
+            Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|{5,-20}|", "Tên", "Địa chỉ", "Diện tích", "Số tầng", "Số phòng", "Giá bán");
             //duyệt sản phẩm trong danh sách
             foreach (SanPham sanPham in list)
             {
-                Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
+                Console.WriteLine("                                 |{0,-20}|{1,-20}|{2,-20}|{3,-20}|{4,-20}|{5,-20}|", sanPham.Ten, sanPham.Diachi, sanPham.Dientich, sanPham.Sotang, sanPham.Sophong, sanPham.Gia);
             }
         }
 
