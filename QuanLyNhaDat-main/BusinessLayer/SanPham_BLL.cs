@@ -31,7 +31,7 @@ namespace QuanLyNhaDat.BLL.Interface
                     dem++;
                     Console.Write("                                 Phải nhập khác rỗng: ");
                     str = Console.ReadLine();
-                    Console.Clear();
+                   
                 }
             }
             return str;
@@ -124,13 +124,13 @@ namespace QuanLyNhaDat.BLL.Interface
             Console.Write("                                 Nhập địa chỉ: ");
             string diachi = Nhapten();
             Console.Write("                                 Nhập diện tích: ");
-            double dientich = double.Parse(Console.ReadLine());
+            double dientich = double.Parse(Nhapten());
             Console.Write("                                 Nhập số tầng: ");
-            int sotang = int.Parse(Console.ReadLine());
+            int sotang = int.Parse(Nhapten());
             Console.Write("                                  số phòng: ");
-            int sophong = int.Parse(Console.ReadLine());
+            int sophong = int.Parse(Nhapten());
             Console.Write("                                 Nhập giá bán: ");
-            int giaban = int.Parse(Console.ReadLine());
+            int giaban = int.Parse(Nhapten());
             //thêm sản phẩm vừa  nhập vào danh sách
             list.Add(new SanPham(ten, diachi, dientich, sotang, sophong, giaban));
             sanPham_DAL.ghiFile(list);
