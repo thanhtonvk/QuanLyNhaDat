@@ -22,13 +22,16 @@ namespace QuanLyNhaDat.BLL.Interface
         public string Nhapten()
         {
             string str = Console.ReadLine();
+            int dem=0;
             while (true)
             {
-                if (str != "") break;
+                if (str != ""||dem==3) break;
                 else
                 {
-                    Console.Write("                                 Phải nhập khác rỗng");
+                    dem++;
+                    Console.Write("                                 Phải nhập khác rỗng: ");
                     str = Console.ReadLine();
+                    Console.Clear();
                 }
             }
             return str;
@@ -58,6 +61,7 @@ namespace QuanLyNhaDat.BLL.Interface
             Console.Write("                                 Nhập số tiền cọc: ");
             int sotiencoc = int.Parse(Console.ReadLine());
             list_kh.Add(new KhachHang(ten, diachi, sdt, tensanphammua, sotiencoc));
+            sanPham_DAL.ghiFile(list_kh);
         }
         public double getGiaNha(string tenspmua)
         {

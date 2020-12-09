@@ -32,12 +32,14 @@ namespace QuanLyNhaDat.GUI
                 switch (chon)
                 {
                     case 1:
+                        Console.Clear();
                         sanPham_BLL.nhapKhachHang();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
                         Console.Clear();
                         break;
                     case 2:
+                        Console.Clear();
                         sanPham_BLL.hienKhachHang();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();

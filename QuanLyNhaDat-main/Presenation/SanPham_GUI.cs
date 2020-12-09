@@ -37,30 +37,47 @@ namespace QuanLyNhaDat.GUI
                 switch (chon)
                 {
                     case 1:
-                        sanPham_BLL.Them();
-                        Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
-                        Console.ReadLine();
-                        Console.Clear();
+                        string nhap;
+                        while (true)
+                        {
+
+                            Console.Clear();
+                            sanPham_BLL.Them();
+                            Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
+                            Console.ReadLine();
+                            Console.Clear();
+                            Console.Write("                                 Bạn có muốn nhập tiếp không?C/K ");
+                            nhap = Console.ReadLine();
+                            if (nhap == "k" || nhap == "K")
+                            {Console.Clear();
+                                break;
+                                
+                            }
+                        }
                         break;
                     case 2:
+                        Console.Clear();
                         sanPham_BLL.Xem();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
                         Console.Clear();
                         break;
                     case 3:
+                        Console.Clear();
                         sanPham_BLL.Sua();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
                         Console.Clear();
                         break;
                     case 4:
+                        Console.Clear();
                         sanPham_BLL.Xoa();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
                         Console.Clear();
                         break;
                     case 5:
+                        Console.Clear();
                         sanPham_BLL.TimKiem();
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
