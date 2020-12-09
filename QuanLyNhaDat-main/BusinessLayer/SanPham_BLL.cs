@@ -61,7 +61,7 @@ namespace QuanLyNhaDat.BLL.Interface
             Console.Write("                                 Nhập số tiền cọc: ");
             int sotiencoc = int.Parse(Console.ReadLine());
             list_kh.Add(new KhachHang(ten, diachi, sdt, tensanphammua, sotiencoc));
-            sanPham_DAL.ghiFile(list_kh);
+            khachHang_DAL.ghiFile(list_kh);
         }
         public double getGiaNha(string tenspmua)
         {
