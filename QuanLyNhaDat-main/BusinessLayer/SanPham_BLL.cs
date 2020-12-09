@@ -31,7 +31,7 @@ namespace QuanLyNhaDat.BLL.Interface
                     dem++;
                     Console.Write("                                 Phải nhập khác rỗng: ");
                     str = Console.ReadLine();
-                    Console.Clear();
+                  
                 }
             }
             return str;
